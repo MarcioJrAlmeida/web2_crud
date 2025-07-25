@@ -1,0 +1,19 @@
+.home-container {
+  padding: 20px;
+  overflow-x: hidden;
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* .home-titulo {
+  margin-bottom: 30px;
+  font-size: 2rem;
+} */
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  justify-items: center;
+}

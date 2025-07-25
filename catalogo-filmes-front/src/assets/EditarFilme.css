@@ -1,0 +1,68 @@
+/* src/assets/EditarFilme.css */
+
+.editar-filme-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #121212;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.editar-filme-card {
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.editar-filme-card h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.editar-filme-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.editar-filme-form label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.editar-filme-form input,
+.editar-filme-form textarea {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+.editar-filme-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.editar-filme-btn {
+  margin-top: 1.5rem;
+  background-color: #b3131a;
+  color: #fff;
+  padding: 0.8rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.editar-filme-btn:hover {
+  background-color: #b3131a;
+}

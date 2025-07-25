@@ -1,0 +1,71 @@
+/* Deletar.css */
+
+.deletar-page {
+  padding: 2rem;
+  background-color: #111;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.deletar-page h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.deletar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.deletar-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.deletar-card:hover {
+  transform: scale(1.02);
+}
+
+.deletar-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.deletar-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.deletar-card .info {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.deletar-card .actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.deletar-card .actions button {
+  padding: 0.5rem 1rem;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deletar-card .actions button:hover {
+  background-color: #cc0000;
+}
